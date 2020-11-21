@@ -1,0 +1,41 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+#sidebar {
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  background: #151719;
+  left:-200px;
+  transition: all 370ms linear;
+}
+
+#sidebar.active {
+  left: 0px
+}
+
+#sidebar ul li {
+  color: rgb(230,230,230);
+  padding: 15px 10px;
+}
+
+#sidebar ul li:hover{
+  padding-left: 25px;
+  transition: all 10ms linear;
+  color: #0071bc;
+}
+
+#sidebar .three-lines {
+  position: absolute;
+  left: 230px;
+  top: 20px
+}
+#sidebar .three-lines span {
+  display: block;
+  width: 30px;
+  height: 5px;
+  background: #151719;
+  margin: 5px 0px;
+}
